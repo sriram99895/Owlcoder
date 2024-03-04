@@ -15,12 +15,11 @@ class Solution:
                 power+=tokens[j]
                 j-=1
             else:
-                i+=1
-                j-=1
+                return mas
             mas = max(mas,score)    
-        if i == j:
-            if tokens[i]<=power:
-                mas = mas+1
+        # if i == j:
+        #     if tokens[i]<=power:
+        #         mas = mas+1
 
         return mas           
             
