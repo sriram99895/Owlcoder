@@ -15,6 +15,6 @@ class Solution:
             else:
                 return j-i+1
         if i == j:
-            return 1
-        return 0                       
+            return 1  
+                         
         
