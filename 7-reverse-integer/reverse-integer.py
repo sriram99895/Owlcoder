@@ -6,4 +6,4 @@ class Solution:
         x=x[::-1]
         x=sign*(int(x))
         return 0 if x<(-(2**31)) or x>((2**31)-1) else x
-  
+        
