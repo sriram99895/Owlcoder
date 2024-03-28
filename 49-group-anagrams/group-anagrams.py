@@ -12,8 +12,5 @@ class Solution:
         l = []
         for v in d.values():
             l.append(v)
-        return l            
-
-
-        
+        return l  
         
