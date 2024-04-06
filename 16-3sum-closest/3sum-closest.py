@@ -18,12 +18,5 @@ class Solution:
                     if abs(ns - target)<= abs(s-target):
                         s = ns
                     k-=1
-        return s                
-
-
-
-
-
-
-
-       
+        return s  
+        
