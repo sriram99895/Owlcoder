@@ -6,5 +6,5 @@ class Solution:
                 l.append(j)
         l.sort() 
         # print(l[k-1]) 
-        return l[k-1]      
+        return l[k-1] 
         
